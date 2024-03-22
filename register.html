@@ -12,20 +12,20 @@
     <a href="contactus.html">Kontakta oss</a>
     <h4>Kontaktformulär</h4>
   
-    <form>
-    <label for="firstname">Förnamn</label>
+    <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=georg@skrot.se" method="post">
+    <label for="firstname">Förnamn</label><br>
     <input id="firstname" name="firstname" type="text"/>
     <br><br>
-    <label for="surname"> Efternamn</label>
+    <label for="surname"> Efternamn</label><br>
     <input id="surname" name="surname" type="text"/>
     <br><br>
-    <label for="adress">Adress</label>
+    <label for="adress">Adress</label><br>
     <input id="adress" name="adress" type="text"/>
     <br><br>
-    <label for="email">Email</label>
+    <label for="email">Email</label><br>
     <input id="email" name="email" type="text"/>
     <br><br>
-    <label for="phonenumber">telefonnummer</label>
+    <label for="phonenumber">telefonnummer</label><br>
     <input id="phonenumber" name="phonenumber" type="number"/>
     <br><br>
     <input type="radio" name="people" id="private" value="private">
@@ -49,6 +49,9 @@
     <input type="checkbox" id="number" name="number" value="ja">
     <label for="number">Vill du bli kontaktad per telefon?</label>
     <input type="hidden" name="number" value="nej">
+    <br>
+    <br>
+    <input type="submit" value="Skicka">
 
 
     </form>
