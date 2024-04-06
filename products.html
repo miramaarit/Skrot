@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produkter</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: lightgoldenrodyellow;">
+<body>
+   <ul id="menu" class="horizontal-menu ">
+
+   </ul>
    <h1>Produkter</h1>
-    <a href="index.html">Startsidan</a>
-    <a href="media.html">Media</a>
-    <a href="register.html">Kontaktformulär</a>
-    <a href="contactus.html">Kontakta oss</a>
-    <br>
+ 
     <table border="1">
      <tr>
         <th></th>
@@ -44,8 +44,26 @@
       <td>växellåda: automat, Motoreffekt(diesel) 358hp(263kW)</td>
 
      </tr>
+     <tr>
 
+     </tr>
+     <th>Köp</th>
+     <td><input type="checkbox" id="choose1" name="choose1" value="15299" onchange="change()">
+     <label for="choose1">Välj</label>
+   </td>
+   <td><input type="checkbox" id="choose2" name="choose2" value="8700" onchange="change()">
+      <label for="choose2">Välj</label>
+    </td>
+    <td><input type="checkbox" id="choose3" name="choose3" value="12300" onchange="change()">
+      <label for="choose3">Välj</label>
+    </td>
+ 
 
     </table>
+    <br>
+    <span id="totalprice">Totalpris: </span>
+   
+    <script src="script/scriptprice.js"></script>
+    <script src="script/scriptmenu.js"></script>
 </body>
 </html>

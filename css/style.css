@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+.backgroundbody{
+    background-image: url("../image/diffus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(111, 180, 116);
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+   
+   
+}
+ul li a:hover {
+    background-color: rgb(124, 141, 124);
+}
+.box{
+    background-image: url("../image/traktor.jpg");
+   
+    background-size:cover;
+    background-position:left;
+    height:300px;
+    width:400px;
+  margin:auto;
+
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:10px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(31, 20, 20);
+   margin: 20px;
+}
+
+.horizontal-menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.horizontal-menu li {
+    display:inline;
+    margin-right: 20px;;
+}
+
+.horizontal-menu li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color:green;
+    border-radius: 5px;
+}
+
+.horizontal-menu li a:hover {
+    background-color:rgb(124, 141, 124);
+}
+
+form{
+    margin: 20px;
+}
+
+h4{
+    margin: 20px;
+}
+
+.api{
+    display:flex;
+
+    flex-wrap:wrap;
+}
+.card{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc
+}
+.card p {
+    margin: 5px 0;
+}
